@@ -1,0 +1,71 @@
+#page-landing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(329.54deg, #29B6D1 8%, #00C7C7 100%);
+}
+
+#page-landing .content-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1100px;
+  height: 100%;
+  max-height: 680px;
+  background: url('../../assets/landing.svg') no-repeat 80% center;
+}
+
+#page-landing .content-wrapper main {
+  max-width: 350px;
+}
+
+#page-landing .content-wrapper main h1 {
+  font-size: 76px;
+  font-weight: 900;
+  line-height: 70px;
+}
+
+#page-landing .content-wrapper main p {
+  margin-top: 40px;
+  font-size: 24px;
+  line-height: 34px;
+}
+
+.content-wrapper .location {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  right: 0;
+  top: 0;
+  font-size: 24px;
+  line-height: 34px;
+  text-align: right;
+}
+
+.content-wrapper .location strong {
+  font-weight: 800;
+}
+
+.content-wrapper .enter-app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  right: 0;
+  bottom: 0;
+  background-color: #FFD666;
+  border-radius: 30px;
+  transition: background-color 200ms;
+  text-decoration: none;
+}
+
+.content-wrapper .enter-app:hover {
+  background-color: #96FEFF;
+}
